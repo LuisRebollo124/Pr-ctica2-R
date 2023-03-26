@@ -24,8 +24,8 @@
             <form action="borrar.php">
                 <button type="submit" >Borrar</button>
             </form>
-        </article id="error">
-        <article>
+        </article>
+        <article id="error">
 
         </article>
     </main>
