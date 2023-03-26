@@ -11,8 +11,23 @@
 <body>
     <main>
         <header><h1>Votación de la mejor película</h1></header>
-        <article></article>
-        <article></article>
+        <article>
+            <form action="segunda.php" method="get">
+                <label for="peli1">Todo a la vez en todas partes</label>
+                <input type="number" value=""id="pelicula1" name="peli1">
+                <label for="peli2">Sin novedad en el frente</label>
+                <input type="number" value="" id="pelicula2" name="peli2">
+                <label for="peli3">Almas en pena de Inisherin</label>
+                <input type="number" value="" id="peli3" name="peli3">
+                <button type="submit">Votar</button>
+            </form>
+            <form action="borrar.php">
+                <button type="submit" >Borrar</button>
+            </form>
+        </article>
+        <article>
+
+        </article>
     </main>
 </body>
 </html>
