@@ -9,7 +9,7 @@
         setcookie("peli2", $peli2, time()+3600*24*7);
         setcookie("peli3", $peli3, time()+3600*24*7);
 
-        header("location:index.php");
+        header("location:listar.php");
     }
     else if (isset($_COOKIE["peli1"]) && ($_COOKIE["peli2"]) && ($_COOKIE["peli3"])) {
         $peli1 = $_COOKIE["peli1"];
@@ -20,13 +20,13 @@
         setcookie("peli2", $peli2, time()+3600*24*7);
         setcookie("peli3", $peli3, time()+3600*24*7);
 
-        header("location:index.php");
+        header("location:listar.php");
     }
 
     if ($peli2=" " || $peli1=" " || $peli3=" "){
 
         echo "<article id='error'>Error, no puede haber peliculas sin votación</article>";
-        header("location:index.php");
+        header("location:listar.php");
     }
 
 
